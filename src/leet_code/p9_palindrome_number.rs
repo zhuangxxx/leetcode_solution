@@ -9,6 +9,7 @@ impl Solution {
             z = z * 10 + y % 10;
             y /= 10;
         }
+
         x == z
         // 0ms/2.1MB
     }
@@ -20,21 +21,21 @@ mod test {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::is_palindrome(121), true)
+        assert_eq!(Solution::is_palindrome(121), true);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::is_palindrome(-121), false)
+        assert_eq!(Solution::is_palindrome(-121), false);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::is_palindrome(10), false)
+        assert_eq!(Solution::is_palindrome(10), false);
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::is_palindrome(-101), false)
+        assert_eq!(Solution::is_palindrome(-101), false);
     }
 }

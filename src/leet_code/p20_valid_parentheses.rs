@@ -37,6 +37,7 @@ impl Solution {
                 _ => return false,
             }
         }
+
         stack.is_empty()
         // 0ms/2.1MB
     }
@@ -48,26 +49,26 @@ mod test {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::is_valid(String::from("()")), true)
+        assert_eq!(Solution::is_valid(String::from("()")), true);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::is_valid(String::from("()[]{}")), true)
+        assert_eq!(Solution::is_valid(String::from("()[]{}")), true);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::is_valid(String::from("(]")), false)
+        assert_eq!(Solution::is_valid(String::from("(]")), false);
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::is_valid(String::from("([)]")), false)
+        assert_eq!(Solution::is_valid(String::from("([)]")), false);
     }
 
     #[test]
     fn test5() {
-        assert_eq!(Solution::is_valid(String::from("{[]}")), true)
+        assert_eq!(Solution::is_valid(String::from("{[]}")), true);
     }
 }

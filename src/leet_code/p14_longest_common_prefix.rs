@@ -6,10 +6,12 @@ impl Solution {
         if strs.is_empty() {
             return "".to_string();
         }
+
         let mut min_len = strs[0].len();
         for s in &strs {
             min_len = min_len.min(s.len());
         }
+
         let mut i = 0;
         while i < min_len {
             let c = &strs[0].as_bytes()[i];
@@ -20,6 +22,7 @@ impl Solution {
             }
             i += 1;
         }
+        
         strs[0][..min_len].to_string()
         // 0ms/2MB
     }
@@ -38,7 +41,7 @@ mod test {
                 "flight".to_string()
             ]),
             String::from("fl")
-        )
+        );
     }
 
     #[test]
@@ -50,7 +53,7 @@ mod test {
                 "car".to_string()
             ]),
             String::from("")
-        )
+        );
     }
 
     #[test]
@@ -63,7 +66,7 @@ mod test {
                 "flower".to_string()
             ]),
             String::from("flower")
-        )
+        );
     }
 
     #[test]
@@ -71,6 +74,6 @@ mod test {
         assert_eq!(
             Solution::longest_common_prefix(vec![String::from("a")]),
             String::from("a")
-        )
+        );
     }
 }
