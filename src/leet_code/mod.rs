@@ -7,4 +7,5 @@ pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
 pub mod p28_implement_strstr;
 pub mod p35_search_insert_position;
+pub mod p53_maximum_subarray;
 pub mod p9_palindrome_number;
