@@ -10,4 +10,5 @@ pub mod p35_search_insert_position;
 pub mod p53_maximum_subarray;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
+pub mod p67_add_binary;
 pub mod p9_palindrome_number;
