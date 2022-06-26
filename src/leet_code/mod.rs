@@ -13,4 +13,5 @@ pub mod p66_plus_one;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
 pub mod p70_climbing_stairs;
+pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p9_palindrome_number;
