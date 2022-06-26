@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)

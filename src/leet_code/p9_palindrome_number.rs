@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)

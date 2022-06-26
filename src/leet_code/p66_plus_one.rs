@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [66. 加一](https://leetcode.cn/problems/plus-one/)

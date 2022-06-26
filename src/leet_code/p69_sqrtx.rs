@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)

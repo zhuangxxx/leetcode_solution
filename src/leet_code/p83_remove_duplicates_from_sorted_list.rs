@@ -1,6 +1,6 @@
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
+struct ListNode {
     pub val: i32,
     pub next: Option<Box<ListNode>>,
 }
@@ -12,7 +12,7 @@ impl ListNode {
     }
 }
 
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [83. 删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)

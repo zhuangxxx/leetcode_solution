@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)

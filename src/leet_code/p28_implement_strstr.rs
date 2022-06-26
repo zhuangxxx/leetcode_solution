@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [28. 实现 strStr()](https://leetcode.cn/problems/implement-strstr/)

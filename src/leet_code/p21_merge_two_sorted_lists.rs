@@ -1,6 +1,6 @@
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
+struct ListNode {
     pub val: i32,
     pub next: Option<Box<ListNode>>,
 }
@@ -12,7 +12,7 @@ impl ListNode {
     }
 }
 
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)

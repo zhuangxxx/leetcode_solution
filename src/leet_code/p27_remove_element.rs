@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)

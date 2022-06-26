@@ -1,4 +1,4 @@
-pub struct Solution;
+struct Solution;
 
 impl Solution {
     /// [67. 二进制求和](https://leetcode.cn/problems/add-binary/)
