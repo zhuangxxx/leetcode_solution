@@ -15,4 +15,5 @@ pub mod p69_sqrtx;
 pub mod p70_climbing_stairs;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
+pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
