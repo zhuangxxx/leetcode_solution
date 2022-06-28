@@ -1,4 +1,5 @@
 pub mod p100_same_tree;
+pub mod p101_symmetric_tree;
 pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p1_two_sum;
