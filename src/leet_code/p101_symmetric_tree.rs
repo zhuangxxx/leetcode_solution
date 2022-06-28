@@ -22,6 +22,7 @@ struct Solution;
 use std::cell::RefCell;
 use std::rc::Rc;
 impl Solution {
+    /// [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/)
     pub fn is_symmetric(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
         if let Some(root) = root {
             let mut queue = std::collections::VecDeque::new();
