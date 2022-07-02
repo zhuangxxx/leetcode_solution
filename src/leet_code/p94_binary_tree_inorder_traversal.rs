@@ -1,21 +1,4 @@
-// Definition for a binary tree node.
-#[derive(Debug, PartialEq, Eq)]
-struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
+use crate::data_struct::tree_node::TreeNode;
 
 struct Solution;
 
@@ -70,15 +53,9 @@ mod test {
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::inorder_traversal(Some(Rc::new(RefCell::new(TreeNode {
-                val: 1,
-                left: None,
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 2,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(3)))),
-                    right: None
-                })))
-            })))),
+            Solution::inorder_traversal(Some(Rc::new(RefCell::new(TreeNode::from(
+                "[1, N, 2, 3, N]".to_string()
+            ))))),
             vec![1, 3, 2]
         );
     }

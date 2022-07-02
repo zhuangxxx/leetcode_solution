@@ -1,21 +1,4 @@
-// Definition for a binary tree node.
-#[derive(Debug, PartialEq, Eq)]
-struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
+use crate::data_struct::tree_node::TreeNode;
 
 struct Solution;
 
@@ -79,27 +62,9 @@ mod tests {
     #[test]
     fn test1() {
         assert!(Solution::has_path_sum(
-            Some(Rc::new(RefCell::new(TreeNode {
-                val: 5,
-                left: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 4,
-                    left: Some(Rc::new(RefCell::new(TreeNode {
-                        val: 11,
-                        left: Some(Rc::new(RefCell::new(TreeNode::new(7)))),
-                        right: Some(Rc::new(RefCell::new(TreeNode::new(2))))
-                    }))),
-                    right: None
-                }))),
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 8,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(8)))),
-                    right: Some(Rc::new(RefCell::new(TreeNode {
-                        val: 4,
-                        left: None,
-                        right: Some(Rc::new(RefCell::new(TreeNode::new(1))))
-                    })))
-                })))
-            }))),
+            Some(Rc::new(RefCell::new(TreeNode::from(
+                "[5, 4, 8, 11, N, 8, 4, 7, 2, N, N, N, 1]".to_string()
+            )))),
             22
         ));
     }
@@ -107,11 +72,9 @@ mod tests {
     #[test]
     fn test2() {
         assert!(!Solution::has_path_sum(
-            Some(Rc::new(RefCell::new(TreeNode {
-                val: 1,
-                left: Some(Rc::new(RefCell::new(TreeNode::new(2)))),
-                right: Some(Rc::new(RefCell::new(TreeNode::new(2))))
-            }))),
+            Some(Rc::new(RefCell::new(TreeNode::from(
+                "[1, 2, 2]".to_string()
+            )))),
             5
         ));
     }

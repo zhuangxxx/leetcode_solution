@@ -1,21 +1,4 @@
-// Definition for a binary tree node.
-#[derive(Debug, PartialEq, Eq)]
-struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
+use crate::data_struct::tree_node::TreeNode;
 
 struct Solution;
 
@@ -72,15 +55,9 @@ mod tests {
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::min_depth(Some(Rc::new(RefCell::new(TreeNode {
-                val: 3,
-                left: Some(Rc::new(RefCell::new(TreeNode::new(9)))),
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 20,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(15)))),
-                    right: Some(Rc::new(RefCell::new(TreeNode::new(7))))
-                })))
-            })))),
+            Solution::min_depth(Some(Rc::new(RefCell::new(TreeNode::from(
+                "[3, 9, 20, N, N, 15, 7]".to_string()
+            ))))),
             2
         );
     }
@@ -88,23 +65,9 @@ mod tests {
     #[test]
     fn test2() {
         assert_eq!(
-            Solution::min_depth(Some(Rc::new(RefCell::new(TreeNode {
-                val: 2,
-                left: None,
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 3,
-                    left: None,
-                    right: Some(Rc::new(RefCell::new(TreeNode {
-                        val: 4,
-                        left: None,
-                        right: Some(Rc::new(RefCell::new(TreeNode {
-                            val: 5,
-                            left: None,
-                            right: Some(Rc::new(RefCell::new(TreeNode::new(6))))
-                        })))
-                    })))
-                })))
-            })))),
+            Solution::min_depth(Some(Rc::new(RefCell::new(TreeNode::from(
+                "[2, N, 3, N, 4, N, 5, N, 6]".to_string()
+            ))))),
             5
         );
     }
@@ -112,19 +75,9 @@ mod tests {
     #[test]
     fn fail1() {
         assert_eq!(
-            Solution::min_depth(Some(Rc::new(RefCell::new(TreeNode {
-                val: 1,
-                left: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 2,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(4)))),
-                    right: None
-                }))),
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 3,
-                    left: None,
-                    right: Some(Rc::new(RefCell::new(TreeNode::new(5))))
-                })))
-            })))),
+            Solution::min_depth(Some(Rc::new(RefCell::new(TreeNode::from(
+                "[1, 2, 3, 4, N, N, 5]".to_string()
+            ))))),
             3
         );
     }

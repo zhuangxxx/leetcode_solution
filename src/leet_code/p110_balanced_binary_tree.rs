@@ -1,21 +1,4 @@
-// Definition for a binary tree node.
-#[derive(Debug, PartialEq, Eq)]
-struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
+use crate::data_struct::tree_node::TreeNode;
 
 struct Solution;
 
@@ -54,34 +37,14 @@ mod tests {
     #[test]
     fn test1() {
         assert!(Solution::is_balanced(Some(Rc::new(RefCell::new(
-            TreeNode {
-                val: 3,
-                left: Some(Rc::new(RefCell::new(TreeNode::new(9)))),
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 20,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(15)))),
-                    right: Some(Rc::new(RefCell::new(TreeNode::new(7))))
-                })))
-            }
+            TreeNode::from("[3, 9, 20, N, N, 15, 7]".to_string())
         )))));
     }
 
     #[test]
     fn test2() {
         assert!(!Solution::is_balanced(Some(Rc::new(RefCell::new(
-            TreeNode {
-                val: 1,
-                left: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 2,
-                    left: Some(Rc::new(RefCell::new(TreeNode {
-                        val: 3,
-                        left: Some(Rc::new(RefCell::new(TreeNode::new(4)))),
-                        right: Some(Rc::new(RefCell::new(TreeNode::new(4))))
-                    }))),
-                    right: Some(Rc::new(RefCell::new(TreeNode::new(3))))
-                }))),
-                right: Some(Rc::new(RefCell::new(TreeNode::new(2))))
-            }
+            TreeNode::from("[1, 2, 2, 3, 3, N, N, 4, 4]".to_string())
         )))));
     }
 }

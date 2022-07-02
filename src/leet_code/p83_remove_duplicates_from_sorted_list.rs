@@ -1,16 +1,4 @@
-// Definition for singly-linked list.
-#[derive(PartialEq, Eq, Clone, Debug)]
-struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    #[inline]
-    fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-}
+use crate::data_struct::list_node::ListNode;
 
 struct Solution;
 
@@ -44,13 +32,7 @@ mod tests {
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::delete_duplicates(Some(Box::new(ListNode {
-                val: 1,
-                next: Some(Box::new(ListNode {
-                    val: 1,
-                    next: Some(Box::new(ListNode::new(2)))
-                }))
-            }))),
+            Solution::delete_duplicates(Some(Box::new(ListNode::from(vec![1, 1, 2])))),
             Some(Box::new(ListNode {
                 val: 1,
                 next: Some(Box::new(ListNode::new(2)))
@@ -61,26 +43,8 @@ mod tests {
     #[test]
     fn test2() {
         assert_eq!(
-            Solution::delete_duplicates(Some(Box::new(ListNode {
-                val: 1,
-                next: Some(Box::new(ListNode {
-                    val: 1,
-                    next: Some(Box::new(ListNode {
-                        val: 2,
-                        next: Some(Box::new(ListNode {
-                            val: 3,
-                            next: Some(Box::new(ListNode::new(3)))
-                        }))
-                    }))
-                }))
-            }))),
-            Some(Box::new(ListNode {
-                val: 1,
-                next: Some(Box::new(ListNode {
-                    val: 2,
-                    next: Some(Box::new(ListNode::new(3))),
-                })),
-            }))
+            Solution::delete_duplicates(Some(Box::new(ListNode::from(vec![1, 1, 2, 3, 3])))),
+            Some(Box::new(ListNode::from(vec![1, 2, 3])))
         )
     }
 }

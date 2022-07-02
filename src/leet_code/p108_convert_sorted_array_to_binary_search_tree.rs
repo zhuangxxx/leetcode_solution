@@ -1,21 +1,4 @@
-// Definition for a binary tree node.
-#[derive(Debug, PartialEq, Eq)]
-struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
+use crate::data_struct::tree_node::TreeNode;
 
 struct Solution;
 
@@ -49,19 +32,9 @@ mod tests {
     fn test1() {
         assert_eq!(
             Solution::sorted_array_to_bst(vec![-10, -3, 0, 5, 9]),
-            Some(Rc::new(RefCell::new(TreeNode {
-                val: 0,
-                left: Some(Rc::new(RefCell::new(TreeNode {
-                    val: -3,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(-10)))),
-                    right: None
-                }))),
-                right: Some(Rc::new(RefCell::new(TreeNode {
-                    val: 9,
-                    left: Some(Rc::new(RefCell::new(TreeNode::new(5)))),
-                    right: None
-                })))
-            })))
+            Some(Rc::new(RefCell::new(TreeNode::from(
+                "[0, -3, 9, -10, N, 5]".to_string()
+            ))))
         );
     }
 
@@ -69,11 +42,7 @@ mod tests {
     fn test2() {
         assert_eq!(
             Solution::sorted_array_to_bst(vec![1, 3]),
-            Some(Rc::new(RefCell::new(TreeNode {
-                val: 3,
-                left: Some(Rc::new(RefCell::new(TreeNode::new(1)))),
-                right: None
-            })))
+            Some(Rc::new(RefCell::new(TreeNode::from("[3, 1]".to_string()))))
         );
     }
 }

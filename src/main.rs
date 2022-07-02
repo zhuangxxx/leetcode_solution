@@ -1,3 +1,4 @@
+mod data_struct;
 #[allow(unused)]
 mod leet_code;
 
