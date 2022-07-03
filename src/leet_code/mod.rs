@@ -6,6 +6,7 @@ pub mod p110_balanced_binary_tree;
 pub mod p111_minimum_depth_of_binary_tree;
 pub mod p112_path_sum;
 pub mod p118_pascals_triangle;
+pub mod p119_pascals_triangle_ii;
 pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p1_two_sum;

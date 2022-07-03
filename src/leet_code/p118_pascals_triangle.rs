@@ -1,6 +1,7 @@
 struct Solution;
 
 impl Solution {
+    /// [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/)
     pub fn generate(num_rows: i32) -> Vec<Vec<i32>> {
         let mut triangle = vec![vec![]; num_rows as usize];
 
