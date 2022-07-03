@@ -8,6 +8,7 @@ pub mod p112_path_sum;
 pub mod p118_pascals_triangle;
 pub mod p119_pascals_triangle_ii;
 pub mod p121_best_time_to_buy_and_sell_stock;
+pub mod p125_valid_palindrome;
 pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p1_two_sum;
