@@ -15,6 +15,7 @@ pub mod p144_binary_tree_preorder_traversal;
 pub mod p145_binary_tree_postorder_traversal;
 pub mod p14_longest_common_prefix;
 pub mod p168_excel_sheet_column_title;
+pub mod p169_majority_element;
 pub mod p1_two_sum;
 pub mod p20_valid_parentheses;
 pub mod p21_merge_two_sorted_lists;
