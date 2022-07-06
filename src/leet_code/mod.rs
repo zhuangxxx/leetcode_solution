@@ -20,6 +20,7 @@ pub mod p171_excel_sheet_column_number;
 pub mod p190_reverse_bits;
 pub mod p191_number_of_1_bits;
 pub mod p1_two_sum;
+pub mod p202_happy_number;
 pub mod p20_valid_parentheses;
 pub mod p21_merge_two_sorted_lists;
 pub mod p26_remove_duplicates_from_sorted_array;
