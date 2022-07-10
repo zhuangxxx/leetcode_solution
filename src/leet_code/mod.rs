@@ -28,6 +28,7 @@ pub mod p20_valid_parentheses;
 pub mod p217_contains_duplicate;
 pub mod p219_contains_duplicate_ii;
 pub mod p21_merge_two_sorted_lists;
+pub mod p225_implement_stack_using_queues;
 pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
 pub mod p28_implement_strstr;
