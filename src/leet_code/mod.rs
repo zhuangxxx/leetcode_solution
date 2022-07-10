@@ -26,6 +26,7 @@ pub mod p205_isomorphic_strings;
 pub mod p206_reverse_linked_list;
 pub mod p20_valid_parentheses;
 pub mod p217_contains_duplicate;
+pub mod p219_contains_duplicate_ii;
 pub mod p21_merge_two_sorted_lists;
 pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
