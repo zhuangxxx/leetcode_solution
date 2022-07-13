@@ -33,6 +33,7 @@ pub mod p226_invert_binary_tree;
 pub mod p228_summary_ranges;
 pub mod p231_power_of_two;
 pub mod p232_implement_queue_using_stacks;
+pub mod p234_palindrome_linked_list;
 pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
 pub mod p28_implement_strstr;
