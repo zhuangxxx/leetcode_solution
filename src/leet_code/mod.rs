@@ -46,6 +46,7 @@ pub mod p283_move_zeroes;
 pub mod p28_implement_strstr;
 pub mod p290_word_pattern;
 pub mod p292_nim_game;
+pub mod p303_range_sum_query_immutable;
 pub mod p35_search_insert_position;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p53_maximum_subarray;
