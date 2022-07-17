@@ -49,6 +49,7 @@ pub mod p292_nim_game;
 pub mod p303_range_sum_query_immutable;
 pub mod p326_power_of_three;
 pub mod p338_counting_bits;
+pub mod p342_power_of_four;
 pub mod p35_search_insert_position;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p53_maximum_subarray;
