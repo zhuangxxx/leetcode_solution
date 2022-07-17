@@ -44,6 +44,7 @@ pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
 pub mod p283_move_zeroes;
 pub mod p28_implement_strstr;
+pub mod p290_word_pattern;
 pub mod p35_search_insert_position;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p53_maximum_subarray;
