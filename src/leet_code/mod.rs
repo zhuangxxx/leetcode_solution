@@ -55,6 +55,7 @@ pub mod p345_reverse_vowels_of_a_string;
 pub mod p349_intersection_of_two_arrays;
 pub mod p350_intersection_of_two_arrays_ii;
 pub mod p35_search_insert_position;
+pub mod p367_valid_perfect_square;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p53_maximum_subarray;
 pub mod p58_length_of_last_word;
