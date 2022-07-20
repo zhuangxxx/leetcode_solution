@@ -7,12 +7,12 @@ impl Solution {
             return false;
         }
 
-        let mut bytes = [0; 255];
+        let mut bytes = [0; 26];
 
         let (s, t) = (s.as_bytes(), t.as_bytes());
         for i in 0..s.len() {
-            bytes[s[i] as usize] += 1;
-            bytes[t[i] as usize] -= 1;
+            bytes[(s[i] - b'a') as usize] += 1;
+            bytes[(t[i] - b'a') as usize] -= 1;
         }
 
         bytes.iter().all(|&x| x == 0)
