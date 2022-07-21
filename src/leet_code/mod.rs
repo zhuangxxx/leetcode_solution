@@ -61,6 +61,7 @@ pub mod p387_first_unique_character_in_a_string;
 pub mod p389_find_the_difference;
 pub mod p392_is_subsequence;
 pub mod p3_longest_substring_without_repeating_characters;
+pub mod p401_binary_watch;
 pub mod p53_maximum_subarray;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
