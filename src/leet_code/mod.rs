@@ -68,6 +68,7 @@ pub mod p409_longest_palindrome;
 pub mod p412_fizz_buzz;
 pub mod p414_third_maximum_number;
 pub mod p415_add_strings;
+pub mod p434_number_of_segments_in_a_string;
 pub mod p53_maximum_subarray;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
