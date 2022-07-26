@@ -75,6 +75,7 @@ pub mod p453_minimum_moves_to_equal_array_elements;
 pub mod p455_assign_cookies;
 pub mod p459_repeated_substring_pattern;
 pub mod p461_hamming_distance;
+pub mod p463_island_perimeter;
 pub mod p53_maximum_subarray;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
