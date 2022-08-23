@@ -1,1 +1,3 @@
 pub mod p3_longest_substring_without_repeating_characters;
+pub mod p453_minimum_moves_to_equal_array_elements;
+pub mod p53_maximum_subarray;
