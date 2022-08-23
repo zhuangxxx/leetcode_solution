@@ -1,4 +1,4 @@
-use crate::data_struct::tree_node::TreeNode;
+use crate::structure::tree_node::TreeNode;
 
 struct Solution;
 

@@ -1,6 +1,6 @@
-mod data_struct;
 #[allow(unused)]
-mod leet_code;
+mod solution;
+mod structure;
 
 fn main() {
     println!("LeetCode Solution");
