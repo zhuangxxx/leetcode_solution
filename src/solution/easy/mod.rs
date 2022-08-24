@@ -78,6 +78,7 @@ pub mod p476_number_complement;
 pub mod p482_license_key_formatting;
 pub mod p485_max_consecutive_ones;
 pub mod p492_construct_the_rectangle;
+pub mod p495_teemo_attacking;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
