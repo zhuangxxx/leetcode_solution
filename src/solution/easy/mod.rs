@@ -86,6 +86,7 @@ pub mod p504_base_7;
 pub mod p506_relative_ranks;
 pub mod p507_perfect_number;
 pub mod p509_fibonacci_number;
+pub mod p520_detect_capital;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
