@@ -85,6 +85,7 @@ pub mod p501_find_mode_in_binary_search_tree;
 pub mod p504_base_7;
 pub mod p506_relative_ranks;
 pub mod p507_perfect_number;
+pub mod p509_fibonacci_number;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
