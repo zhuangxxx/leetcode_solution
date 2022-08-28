@@ -91,6 +91,7 @@ pub mod p521_longest_uncommon_subsequence_i;
 pub mod p530_minimum_absolute_difference_in_bst;
 pub mod p541_reverse_string_ii;
 pub mod p543_diameter_of_binary_tree;
+pub mod p551_student_attendance_record_i;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
