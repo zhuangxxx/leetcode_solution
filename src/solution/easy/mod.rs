@@ -94,6 +94,7 @@ pub mod p543_diameter_of_binary_tree;
 pub mod p551_student_attendance_record_i;
 pub mod p557_reverse_words_in_a_string_iii;
 pub mod p561_array_partition;
+pub mod p563_binary_tree_tilt;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
