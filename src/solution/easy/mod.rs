@@ -97,6 +97,7 @@ pub mod p561_array_partition;
 pub mod p563_binary_tree_tilt;
 pub mod p566_reshape_the_matrix;
 pub mod p572_subtree_of_another_tree;
+pub mod p575_distribute_candies;
 pub mod p58_length_of_last_word;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
