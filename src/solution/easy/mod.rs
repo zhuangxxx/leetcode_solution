@@ -100,6 +100,7 @@ pub mod p572_subtree_of_another_tree;
 pub mod p575_distribute_candies;
 pub mod p58_length_of_last_word;
 pub mod p594_longest_harmonious_subsequence;
+pub mod p598_range_addition_ii;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
