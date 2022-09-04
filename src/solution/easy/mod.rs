@@ -104,6 +104,7 @@ pub mod p598_range_addition_ii;
 pub mod p599_minimum_index_sum_of_two_lists;
 pub mod p605_can_place_flowers;
 pub mod p606_construct_string_from_binary_tree;
+pub mod p617_merge_two_binary_trees;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
