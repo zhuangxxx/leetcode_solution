@@ -106,6 +106,7 @@ pub mod p605_can_place_flowers;
 pub mod p606_construct_string_from_binary_tree;
 pub mod p617_merge_two_binary_trees;
 pub mod p628_maximum_product_of_three_numbers;
+pub mod p637_average_of_levels_in_binary_tree;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
