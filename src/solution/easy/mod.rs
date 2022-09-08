@@ -109,6 +109,7 @@ pub mod p628_maximum_product_of_three_numbers;
 pub mod p637_average_of_levels_in_binary_tree;
 pub mod p643_maximum_average_subarray_i;
 pub mod p645_set_mismatch;
+pub mod p653_two_sum_iv_input_is_a_bst;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
