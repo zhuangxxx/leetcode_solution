@@ -111,6 +111,7 @@ pub mod p643_maximum_average_subarray_i;
 pub mod p645_set_mismatch;
 pub mod p653_two_sum_iv_input_is_a_bst;
 pub mod p657_robot_return_to_origin;
+pub mod p661_image_smoother;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
