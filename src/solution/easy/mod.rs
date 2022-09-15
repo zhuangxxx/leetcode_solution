@@ -113,6 +113,7 @@ pub mod p653_two_sum_iv_input_is_a_bst;
 pub mod p657_robot_return_to_origin;
 pub mod p661_image_smoother;
 pub mod p66_plus_one;
+pub mod p671_second_minimum_node_in_a_binary_tree;
 pub mod p67_add_binary;
 pub mod p69_sqrtx;
 pub mod p70_climbing_stairs;
