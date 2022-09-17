@@ -119,6 +119,7 @@ pub mod p67_add_binary;
 pub mod p680_valid_palindrome_ii;
 pub mod p682_baseball_game;
 pub mod p693_binary_number_with_alternating_bits;
+pub mod p696_count_binary_substrings;
 pub mod p69_sqrtx;
 pub mod p70_climbing_stairs;
 pub mod p83_remove_duplicates_from_sorted_list;
