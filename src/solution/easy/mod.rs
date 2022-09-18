@@ -122,6 +122,7 @@ pub mod p693_binary_number_with_alternating_bits;
 pub mod p696_count_binary_substrings;
 pub mod p697_degree_of_an_array;
 pub mod p69_sqrtx;
+pub mod p700_search_in_a_binary_search_tree;
 pub mod p70_climbing_stairs;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
