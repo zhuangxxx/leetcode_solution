@@ -20,23 +20,19 @@ impl MyHashSet {
 
     fn remove(&mut self, key: i32) {
         let m = (key & 31) as usize;
-        if self.nums[m].len() > 0 {
-            for i in 0..self.nums[m].len() {
-                if self.nums[m][i] == key {
-                    self.nums[m].remove(i);
-                    break;
-                }
+        for i in 0..self.nums[m].len() {
+            if self.nums[m][i] == key {
+                self.nums[m].remove(i);
+                break;
             }
         }
     }
 
     fn contains(&self, key: i32) -> bool {
         let m = (key & 31) as usize;
-        if self.nums[m].len() > 0 {
-            for i in 0..self.nums[m].len() {
-                if self.nums[m][i] == key {
-                    return true;
-                }
+        for i in 0..self.nums[m].len() {
+            if self.nums[m][i] == key {
+                return true;
             }
         }
 

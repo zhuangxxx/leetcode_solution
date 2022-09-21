@@ -126,6 +126,7 @@ pub mod p700_search_in_a_binary_search_tree;
 pub mod p703_kth_largest_element_in_a_stream;
 pub mod p704_binary_search;
 pub mod p705_design_hashset;
+pub mod p706_design_hashmap;
 pub mod p70_climbing_stairs;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
