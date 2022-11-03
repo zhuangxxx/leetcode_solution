@@ -133,6 +133,7 @@ pub mod p717_1_bit_and_2_bit_characters;
 pub mod p724_find_pivot_index;
 pub mod p728_self_dividing_numbers;
 pub mod p733_flood_fill;
+pub mod p744_find_smallest_letter_greater_than_target;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
