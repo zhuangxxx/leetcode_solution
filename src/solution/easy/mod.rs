@@ -135,6 +135,8 @@ pub mod p728_self_dividing_numbers;
 pub mod p733_flood_fill;
 pub mod p744_find_smallest_letter_greater_than_target;
 pub mod p746_min_cost_climbing_stairs;
+pub mod p747_largest_number_at_least_twice_of_others;
+pub mod p748_shortest_completing_word;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
