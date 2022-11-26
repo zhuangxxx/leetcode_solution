@@ -140,6 +140,7 @@ pub mod p748_shortest_completing_word;
 pub mod p762_prime_number_of_set_bits_in_binary_representation;
 pub mod p766_toeplitz_matrix;
 pub mod p771_jewels_and_stones;
+pub mod p783_minimum_distance_between_bst_nodes;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
