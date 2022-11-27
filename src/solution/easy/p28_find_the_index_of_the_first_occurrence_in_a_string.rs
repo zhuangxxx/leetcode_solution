@@ -1,7 +1,7 @@
 struct Solution;
 
 impl Solution {
-    /// [28. 实现 strStr()](https://leetcode.cn/problems/implement-strstr/)
+    /// [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
     pub fn str_str(haystack: String, needle: String) -> i32 {
         let (haystack, needle) = (haystack.as_bytes(), needle.as_bytes());
 
