@@ -145,6 +145,7 @@ pub mod p796_rotate_string;
 pub mod p804_unique_morse_code_words;
 pub mod p806_number_of_lines_to_write_string;
 pub mod p812_largest_triangle_area;
+pub mod p819_most_common_word;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
