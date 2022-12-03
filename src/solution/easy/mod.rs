@@ -149,6 +149,7 @@ pub mod p819_most_common_word;
 pub mod p821_shortest_distance_to_a_character;
 pub mod p824_goat_latin;
 pub mod p830_positions_of_large_groups;
+pub mod p832_flipping_an_image;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
