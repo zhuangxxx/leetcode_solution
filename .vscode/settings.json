@@ -2,8 +2,10 @@
     "cSpell.words": [
         "curr",
         "deque",
+        "hashset",
         "inorder",
         "nums",
+        "peekable",
         "postorder",
         "preorder",
         "sqrtx",

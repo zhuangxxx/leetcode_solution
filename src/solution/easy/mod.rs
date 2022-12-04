@@ -152,6 +152,7 @@ pub mod p830_positions_of_large_groups;
 pub mod p832_flipping_an_image;
 pub mod p836_rectangle_overlap;
 pub mod p83_remove_duplicates_from_sorted_list;
+pub mod p844_backspace_string_compare;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
