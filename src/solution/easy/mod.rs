@@ -158,6 +158,7 @@ pub mod p860_lemonade_change;
 pub mod p867_transpose_matrix;
 pub mod p868_binary_gap;
 pub mod p872_leaf_similar_trees;
+pub mod p876_middle_of_the_linked_list;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
