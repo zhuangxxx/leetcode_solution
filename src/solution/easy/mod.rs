@@ -161,6 +161,7 @@ pub mod p872_leaf_similar_trees;
 pub mod p876_middle_of_the_linked_list;
 pub mod p883_projection_area_of_3d_shapes;
 pub mod p884_uncommon_words_from_two_sentences;
+pub mod p888_fair_candy_swap;
 pub mod p88_merge_sorted_array;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
