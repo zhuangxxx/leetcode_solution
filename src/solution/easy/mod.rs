@@ -166,5 +166,6 @@ pub mod p88_merge_sorted_array;
 pub mod p892_surface_area_of_3d_shapes;
 pub mod p896_monotonic_array;
 pub mod p897_increasing_order_search_tree;
+pub mod p905_sort_array_by_parity;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
