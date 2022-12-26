@@ -172,5 +172,6 @@ pub mod p914_x_of_a_kind_in_a_deck_of_cards;
 pub mod p917_reverse_only_letters;
 pub mod p922_sort_array_by_parity_ii;
 pub mod p925_long_pressed_name;
+pub mod p929_unique_email_addresses;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
