@@ -175,5 +175,8 @@ pub mod p925_long_pressed_name;
 pub mod p929_unique_email_addresses;
 pub mod p933_number_of_recent_calls;
 pub mod p938_range_sum_of_bst;
+pub mod p941_valid_mountain_array;
+pub mod p942_di_string_match;
+pub mod p944_delete_columns_to_make_sorted;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p9_palindrome_number;
