@@ -183,4 +183,6 @@ pub mod p953_verifying_an_alien_dictionary;
 pub mod p961_n_repeated_element_in_size_2n_array;
 pub mod p965_univalued_binary_tree;
 pub mod p976_largest_perimeter_triangle;
+pub mod p977_squares_of_a_sorted_array;
+pub mod p989_add_to_array_form_of_integer;
 pub mod p9_palindrome_number;
