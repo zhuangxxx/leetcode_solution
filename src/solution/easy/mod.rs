@@ -185,4 +185,5 @@ pub mod p965_univalued_binary_tree;
 pub mod p976_largest_perimeter_triangle;
 pub mod p977_squares_of_a_sorted_array;
 pub mod p989_add_to_array_form_of_integer;
+pub mod p993_cousins_in_binary_tree;
 pub mod p9_palindrome_number;
