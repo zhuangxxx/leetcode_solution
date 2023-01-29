@@ -186,4 +186,6 @@ pub mod p976_largest_perimeter_triangle;
 pub mod p977_squares_of_a_sorted_array;
 pub mod p989_add_to_array_form_of_integer;
 pub mod p993_cousins_in_binary_tree;
+pub mod p997_find_the_town_judge;
+pub mod p999_available_captures_for_rook;
 pub mod p9_palindrome_number;
