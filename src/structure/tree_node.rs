@@ -190,4 +190,139 @@ mod tests {
     fn test_fmt() {
         println!("{:?}", TreeNode::from(String::from("[1, 2, N, 3]")));
     }
+
+    #[test]
+    fn preorder_traversal() {
+        let mut root = Some(Rc::new(RefCell::new(TreeNode::from(
+            "[1, 2, 5, 3, 4, 6, 7]".to_string(),
+        ))));
+
+        let mut list = Vec::new();
+        let mut stack = Vec::new();
+        loop {
+            while let Some(node) = root {
+                list.push(node.borrow().val);
+                stack.push(node.clone());
+                root = node.borrow().left.clone()
+            }
+
+            if stack.is_empty() {
+                break;
+            }
+
+            if let Some(node) = stack.pop() {
+                root = node.borrow().right.clone();
+            }
+        }
+
+        assert_eq!(list, vec![1, 2, 3, 4, 5, 6, 7]);
+    }
+
+    #[test]
+    fn inorder_traversal() {
+        let mut root = Some(Rc::new(RefCell::new(TreeNode::from(
+            "[1, 2, 5, 3, 4, 6, 7]".to_string(),
+        ))));
+
+        let mut list = Vec::new();
+        let mut stack = Vec::new();
+        loop {
+            while let Some(node) = root {
+                stack.push(node.clone());
+                root = node.borrow().left.clone()
+            }
+
+            if stack.is_empty() {
+                break;
+            }
+
+            if let Some(node) = stack.pop() {
+                list.push(node.borrow().val);
+                root = node.borrow().right.clone();
+            }
+        }
+
+        assert_eq!(list, vec![3, 2, 4, 1, 6, 5, 7]);
+    }
+
+    #[test]
+    fn postorder_traversal() {
+        let mut root = Some(Rc::new(RefCell::new(TreeNode::from(
+            "[1, 2, 5, 3, 4, 6, 7]".to_string(),
+        ))));
+
+        let mut list = Vec::new();
+        let (mut stack, mut prev) = (Vec::new(), None);
+        loop {
+            while let Some(node) = root {
+                stack.push(node.clone());
+                root = node.borrow().left.clone();
+            }
+
+            if stack.is_empty() {
+                break;
+            }
+
+            if let Some(node) = stack.pop() {
+                if node.borrow().right.is_none() || node.borrow().right == prev {
+                    list.push(node.borrow().val);
+                    prev = Some(node.clone());
+                    root = None;
+                } else {
+                    stack.push(node.clone());
+                    root = node.borrow().right.clone();
+                }
+            }
+        }
+
+        assert_eq!(list, vec![3, 4, 2, 6, 7, 5, 1]);
+    }
+
+    #[test]
+    fn depth_first_search() {
+        let root = Some(Rc::new(RefCell::new(TreeNode::from(
+            "[4, 2, 6, 1, 3, 5, 7]".to_string(),
+        ))));
+
+        let mut list = Vec::new();
+        if let Some(root) = root {
+            let mut stack = Vec::new();
+            stack.push(root);
+            while let Some(node) = stack.pop() {
+                list.push(node.borrow().val);
+                if let Some(right) = node.borrow().right.clone() {
+                    stack.push(right);
+                }
+                if let Some(left) = node.borrow().left.clone() {
+                    stack.push(left);
+                }
+            }
+        }
+
+        assert_eq!(list, vec![4, 2, 1, 3, 6, 5, 7]);
+    }
+
+    #[test]
+    fn breadth_first_search() {
+        let root = Some(Rc::new(RefCell::new(TreeNode::from(
+            "[4, 2, 6, 1, 3, 5, 7]".to_string(),
+        ))));
+
+        let mut list = Vec::new();
+        if let Some(root) = root {
+            let mut queue = std::collections::VecDeque::new();
+            queue.push_back(root);
+            while let Some(node) = queue.pop_front() {
+                list.push(node.borrow().val);
+                if let Some(left) = node.borrow().left.clone() {
+                    queue.push_back(left);
+                }
+                if let Some(right) = node.borrow().right.clone() {
+                    queue.push_back(right);
+                }
+            }
+        }
+
+        assert_eq!(list, vec![4, 2, 6, 1, 3, 5, 7]);
+    }
 }
