@@ -3,5 +3,6 @@ pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p2_add_two_numbers;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p453_minimum_moves_to_equal_array_elements;
-pub mod p4_longest_palindromic_substring;
 pub mod p53_maximum_subarray;
+pub mod p5_longest_palindromic_substring;
+pub mod p6_zigzag_conversion;
