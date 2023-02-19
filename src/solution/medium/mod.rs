@@ -6,3 +6,5 @@ pub mod p453_minimum_moves_to_equal_array_elements;
 pub mod p53_maximum_subarray;
 pub mod p5_longest_palindromic_substring;
 pub mod p6_zigzag_conversion;
+pub mod p7_reverse_integer;
+pub mod p8_string_to_integer_atoi;
