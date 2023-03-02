@@ -5,6 +5,7 @@ pub mod p16_3sum_closest;
 pub mod p17_letter_combinations_of_a_phone_number;
 pub mod p18_4sum;
 pub mod p19_remove_nth_node_from_end_of_list;
+pub mod p22_generate_parentheses;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p2_add_two_numbers;
