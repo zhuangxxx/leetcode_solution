@@ -9,6 +9,7 @@ pub mod p22_generate_parentheses;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
+pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p453_minimum_moves_to_equal_array_elements;
