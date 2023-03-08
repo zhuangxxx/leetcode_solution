@@ -12,6 +12,7 @@ pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p31_next_permutation;
+pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod p34_search_in_rotated_sorted_array;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p453_minimum_moves_to_equal_array_elements;
