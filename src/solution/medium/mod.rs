@@ -15,6 +15,7 @@ pub mod p31_next_permutation;
 pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod p34_search_in_rotated_sorted_array;
 pub mod p36_valid_sudoku;
+pub mod p38_count_and_say;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p453_minimum_moves_to_equal_array_elements;
 pub mod p53_maximum_subarray;
