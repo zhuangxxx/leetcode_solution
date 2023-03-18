@@ -19,6 +19,7 @@ pub mod p38_count_and_say;
 pub mod p39_combination_sum;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p40_combination_sum_ii;
+pub mod p43_multiply_strings;
 pub mod p453_minimum_moves_to_equal_array_elements;
 pub mod p53_maximum_subarray;
 pub mod p5_longest_palindromic_substring;
