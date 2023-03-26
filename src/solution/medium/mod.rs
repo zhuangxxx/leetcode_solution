@@ -26,6 +26,7 @@ pub mod p46_permutations;
 pub mod p47_permutations_ii;
 pub mod p48_rotate_image;
 pub mod p49_group_anagrams;
+pub mod p50_powx_n;
 pub mod p53_maximum_subarray;
 pub mod p5_longest_palindromic_substring;
 pub mod p6_zigzag_conversion;
