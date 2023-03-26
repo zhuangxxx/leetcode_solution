@@ -25,6 +25,7 @@ pub mod p45_jump_game_ii;
 pub mod p46_permutations;
 pub mod p47_permutations_ii;
 pub mod p48_rotate_image;
+pub mod p49_group_anagrams;
 pub mod p53_maximum_subarray;
 pub mod p5_longest_palindromic_substring;
 pub mod p6_zigzag_conversion;
