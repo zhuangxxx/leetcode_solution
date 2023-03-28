@@ -28,6 +28,7 @@ pub mod p48_rotate_image;
 pub mod p49_group_anagrams;
 pub mod p50_powx_n;
 pub mod p53_maximum_subarray;
+pub mod p54_spiral_matrix;
 pub mod p5_longest_palindromic_substring;
 pub mod p6_zigzag_conversion;
 pub mod p7_reverse_integer;
