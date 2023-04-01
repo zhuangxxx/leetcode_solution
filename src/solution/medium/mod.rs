@@ -32,6 +32,7 @@ pub mod p54_spiral_matrix;
 pub mod p55_jump_game;
 pub mod p56_merge_intervals;
 pub mod p57_insert_interval;
+pub mod p59_spiral_matrix_ii;
 pub mod p5_longest_palindromic_substring;
 pub mod p6_zigzag_conversion;
 pub mod p7_reverse_integer;
