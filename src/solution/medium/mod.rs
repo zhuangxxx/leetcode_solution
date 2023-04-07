@@ -37,6 +37,7 @@ pub mod p5_longest_palindromic_substring;
 pub mod p61_rotate_list;
 pub mod p62_unique_paths;
 pub mod p63_unique_paths_ii;
+pub mod p64_minimum_path_sum;
 pub mod p6_zigzag_conversion;
 pub mod p7_reverse_integer;
 pub mod p8_string_to_integer_atoi;
