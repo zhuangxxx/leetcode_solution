@@ -47,4 +47,5 @@ pub mod p77_combinations;
 pub mod p78_subsets;
 pub mod p79_word_search;
 pub mod p7_reverse_integer;
+pub mod p80_remove_duplicates_from_sorted_array_ii;
 pub mod p8_string_to_integer_atoi;
