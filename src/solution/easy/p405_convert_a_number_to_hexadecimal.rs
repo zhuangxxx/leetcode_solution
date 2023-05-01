@@ -9,7 +9,7 @@ impl Solution {
 
         let (mut num, mut hex_vec) = (num as i64, Vec::new());
         if num < 0 {
-            num = (1 << 32) + num;
+            num += 1 << 32;
         }
 
         while num != 0 {

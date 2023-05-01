@@ -3,7 +3,7 @@ struct Solution;
 impl Solution {
     /// [43. 字符串相乘](https://leetcode.cn/problems/multiply-strings/)
     pub fn multiply(num1: String, num2: String) -> String {
-        if num1 == "0".to_string() || num2 == "0".to_string() {
+        if num1 == *"0" || num2 == *"0" {
             return String::from("0");
         }
 

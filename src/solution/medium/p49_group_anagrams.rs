@@ -43,7 +43,7 @@ mod tests {
             anagram
         })
         .collect::<Vec<_>>();
-        result.sort_unstable_by(|a, b| a.len().cmp(&b.len()));
+        result.sort_unstable_by_key(|a| a.len());
         assert_eq!(
             result,
             vec![

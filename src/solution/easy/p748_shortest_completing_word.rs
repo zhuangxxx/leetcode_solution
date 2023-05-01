@@ -6,7 +6,7 @@ impl Solution {
         let plate = {
             let mut plate = [0u8; 26];
             for u in license_plate.bytes() {
-                if (u >= b'a' && u <= b'z') || (u >= b'A' && u <= b'Z') {
+                if u.is_ascii_lowercase() || u.is_ascii_uppercase() {
                     plate[((u | 0x20) - b'a') as usize] += 1;
                 }
             }
@@ -17,7 +17,7 @@ impl Solution {
         for word in words {
             let mut temp = plate;
             for u in word.bytes() {
-                if (u >= b'a' && u <= b'z') || (u >= b'A' && u <= b'Z') {
+                if u.is_ascii_lowercase() || u.is_ascii_uppercase() {
                     if temp[((u | 0x20) - b'a') as usize] == 0 {
                         continue;
                     }
@@ -25,10 +25,8 @@ impl Solution {
                 }
             }
 
-            if temp.iter().sum::<u8>() == 0 {
-                if short.is_empty() || word.len() < short.len() {
-                    short = word;
-                }
+            if temp.iter().sum::<u8>() == 0 && (short.is_empty() || word.len() < short.len()) {
+                short = word;
             }
         }
 

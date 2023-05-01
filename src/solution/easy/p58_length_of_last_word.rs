@@ -6,14 +6,14 @@ impl Solution {
         let s = s.as_bytes();
         let (mut len, mut i) = (0, s.len() - 1);
 
-        while s[i] == ' ' as u8 {
+        while s[i] == b' ' {
             if i == 0 {
                 break;
             }
             i -= 1;
         }
 
-        while s[i] != ' ' as u8 {
+        while s[i] != b' ' {
             len += 1;
             if i == 0 {
                 break;

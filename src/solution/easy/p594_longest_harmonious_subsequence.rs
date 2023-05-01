@@ -12,10 +12,8 @@ impl Solution {
                 i += 1;
             }
 
-            if nums[j] - nums[i] == 1 {
-                if j - i + 1 > len {
-                    len = j - i + 1;
-                }
+            if nums[j] - nums[i] == 1 && j - i + 1 > len {
+                len = j - i + 1;
             }
         }
 

@@ -6,8 +6,7 @@ impl Solution {
         nums.iter()
             .filter(|&x| x & 1 == 0)
             .zip(nums.iter().filter(|&x| x & 1 != 0))
-            .map(|(&e, &o)| vec![e, o])
-            .flatten()
+            .flat_map(|(&e, &o)| vec![e, o])
             .collect()
         // 8ms/2.2MB
     }

@@ -9,8 +9,8 @@ impl Solution {
         for x in 0..m {
             for y in 0..n {
                 let mut c = 0;
-                for i in x.checked_sub(1).unwrap_or(0)..=std::cmp::min(x + 1, m - 1) {
-                    for j in y.checked_sub(1).unwrap_or(0)..=std::cmp::min(y + 1, n - 1) {
+                for i in x.saturating_sub(1)..=std::cmp::min(x + 1, m - 1) {
+                    for j in y.saturating_sub(1)..=std::cmp::min(y + 1, n - 1) {
                         s[y][x] += img[j][i];
                         c += 1;
                     }

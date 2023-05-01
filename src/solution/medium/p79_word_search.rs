@@ -44,10 +44,8 @@ impl Solution {
                     }
                     _ => continue,
                 };
-                if board[i][j] == chars[len] {
-                    if check(board, (i, j), chars, len + 1) {
-                        return true;
-                    }
+                if board[i][j] == chars[len] && check(board, (i, j), chars, len + 1) {
+                    return true;
                 }
             }
             board[index.0][index.1] = chars[len - 1];

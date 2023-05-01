@@ -13,15 +13,13 @@ impl Solution {
             std::collections::HashSet::new(),
         );
         for i in 0..s.len() {
-            if map.contains_key(&pattern[i]) {
-                if map[&pattern[i]] != s[i] {
-                    return false;
-                }
-            } else {
-                map.insert(pattern[i], s[i]);
+            if let std::collections::hash_map::Entry::Vacant(e) = map.entry(pattern[i]) {
+                e.insert(s[i]);
                 if !set.insert(s[i]) {
                     return false;
                 }
+            } else if map[&pattern[i]] != s[i] {
+                return false;
             }
         }
 

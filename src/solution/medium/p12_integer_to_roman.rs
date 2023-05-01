@@ -16,7 +16,7 @@ impl Solution {
             } else {
                 if n > 4 {
                     roman[i].push(MAP[i].1);
-                    n = n - 5
+                    n -= 5
                 }
                 for _ in 0..n {
                     roman[i].push(MAP[i].0);

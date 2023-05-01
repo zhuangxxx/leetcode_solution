@@ -4,7 +4,7 @@ impl Solution {
     /// [709. 转换成小写字母](https://leetcode.cn/problems/to-lower-case/)
     pub fn to_lower_case(s: String) -> String {
         s.bytes()
-            .map(|u| if u >= b'A' && u <= b'Z' { u | 32 } else { u } as char)
+            .map(|u| if u.is_ascii_uppercase() { u | 32 } else { u } as char)
             .collect()
         // 0ms/2.2MB
     }

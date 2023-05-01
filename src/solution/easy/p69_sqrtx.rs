@@ -16,7 +16,7 @@ impl Solution {
             }
         }
 
-        return s;
+        s
         // 0ms/2MB
     }
 }

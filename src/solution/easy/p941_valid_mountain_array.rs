@@ -15,10 +15,8 @@ impl Solution {
                 if up {
                     up = false;
                 }
-            } else {
-                if !up {
-                    return false;
-                }
+            } else if !up {
+                return false;
             }
         }
 

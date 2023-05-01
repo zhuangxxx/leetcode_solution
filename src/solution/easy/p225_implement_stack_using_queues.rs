@@ -37,7 +37,7 @@ impl MyStack {
     }
 
     fn empty(&self) -> bool {
-        self.rev.len() == 0
+        self.rev.is_empty()
     }
 }
 

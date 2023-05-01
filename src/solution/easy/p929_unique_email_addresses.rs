@@ -9,7 +9,7 @@ impl Solution {
                 if let Some(p) = email.find('@') {
                     format!(
                         "{}{}",
-                        &email[..email.find('+').unwrap_or(p)].replace(".", ""),
+                        &email[..email.find('+').unwrap_or(p)].replace('.', ""),
                         &email[p..]
                     )
                 } else {

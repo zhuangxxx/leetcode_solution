@@ -5,12 +5,12 @@ impl Solution {
     pub fn find_shortest_sub_array(nums: Vec<i32>) -> i32 {
         let mut map = std::collections::HashMap::<i32, (i32, usize, usize)>::new();
         for i in 0..nums.len() {
-            if map.contains_key(&nums[i]) {
+            if let std::collections::hash_map::Entry::Vacant(e) = map.entry(nums[i]) {
+                e.insert((1, i, i));
+            } else {
                 let val = map.entry(nums[i]).or_default();
                 val.0 += 1;
                 val.2 = i;
-            } else {
-                map.insert(nums[i], (1, i, i));
             }
         }
 

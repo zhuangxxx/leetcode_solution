@@ -10,7 +10,7 @@ impl Solution {
         if s == goal {
             let mut byte = [false; 26];
             for i in 0..s.len() {
-                if byte[(s.as_bytes()[i] - b'a') as usize] == true {
+                if byte[(s.as_bytes()[i] - b'a') as usize] {
                     return true;
                 }
 

@@ -6,8 +6,7 @@ impl Solution {
         nums1
             .into_iter()
             .collect::<std::collections::HashSet<_>>()
-            .intersection(&nums2.into_iter().collect::<std::collections::HashSet<_>>())
-            .map(|&n| n)
+            .intersection(&nums2.into_iter().collect::<std::collections::HashSet<_>>()).copied()
             .collect()
         // 0ms/2.2MB
     }

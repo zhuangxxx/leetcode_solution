@@ -37,7 +37,7 @@ impl MyQueue {
     }
 
     fn empty(&self) -> bool {
-        self.ord.len() == 0
+        self.ord.is_empty()
     }
 }
 

@@ -41,7 +41,7 @@ impl From<String> for TreeNode {
 
         let mut pos = 0;
 
-        if src.len() == 0 || src[pos].is_none() {
+        if src.is_empty() || src[pos].is_none() {
             return TreeNode::new(0);
         }
 

@@ -3,7 +3,7 @@ struct Solution;
 impl Solution {
     /// [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/)
     pub fn next_greatest_letter(letters: Vec<char>, target: char) -> char {
-        if letters.len() == 0 {
+        if letters.is_empty() {
             target
         } else if target >= letters[letters.len() - 1] {
             letters[0]

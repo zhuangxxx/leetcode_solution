@@ -14,7 +14,7 @@ impl ListNode {
 
 impl From<Vec<i32>> for ListNode {
     fn from(src: Vec<i32>) -> Self {
-        if src.len() == 0 {
+        if src.is_empty() {
             return ListNode::new(0);
         }
 
