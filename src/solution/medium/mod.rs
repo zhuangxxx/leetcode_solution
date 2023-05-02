@@ -54,3 +54,4 @@ pub mod p86_partition_list;
 pub mod p89_gray_code;
 pub mod p8_string_to_integer_atoi;
 pub mod p90_subsets_ii;
+pub mod p91_decode_ways;

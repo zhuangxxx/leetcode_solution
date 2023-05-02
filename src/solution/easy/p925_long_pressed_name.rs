@@ -61,7 +61,7 @@ mod tests {
 
     #[test]
     fn fail2() {
-        assert!(!Solution::is_long_pressed_name(
+        assert!(Solution::is_long_pressed_name(
             String::from("vtkgn"),
             String::from("vttkgnn")
         ));
