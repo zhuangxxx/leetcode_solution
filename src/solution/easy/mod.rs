@@ -1,3 +1,4 @@
+pub mod p1002_find_common_characters;
 pub mod p100_same_tree;
 pub mod p101_symmetric_tree;
 pub mod p104_maximum_depth_of_binary_tree;
