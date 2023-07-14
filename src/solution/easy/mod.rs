@@ -1,4 +1,6 @@
 pub mod p1002_find_common_characters;
+pub mod p1005_maximize_sum_of_array_after_k_negations;
+pub mod p1009_complement_of_base_10_integer;
 pub mod p100_same_tree;
 pub mod p101_symmetric_tree;
 pub mod p104_maximum_depth_of_binary_tree;

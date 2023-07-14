@@ -1,6 +1,7 @@
 struct Solution;
 
 impl Solution {
+    /// [1002. 查找共用字符](https://leetcode.cn/problems/find-common-characters/)
     pub fn common_chars(words: Vec<String>) -> Vec<String> {
         let mut map = [words[0].len(); 26];
         for w in words {
@@ -23,6 +24,7 @@ impl Solution {
         }
 
         common
+        // 0ms/2.1MB
     }
 }
 
