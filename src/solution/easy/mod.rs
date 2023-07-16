@@ -2,6 +2,8 @@ pub mod p1002_find_common_characters;
 pub mod p1005_maximize_sum_of_array_after_k_negations;
 pub mod p1009_complement_of_base_10_integer;
 pub mod p100_same_tree;
+pub mod p1013_partition_array_into_three_parts_with_equal_sum;
+pub mod p1018_binary_prefix_divisible_by_5;
 pub mod p101_symmetric_tree;
 pub mod p104_maximum_depth_of_binary_tree;
 pub mod p108_convert_sorted_array_to_binary_search_tree;
