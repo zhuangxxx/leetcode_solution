@@ -10,6 +10,8 @@ pub mod p1022_sum_of_root_to_leaf_binary_numbers;
 pub mod p1024_divisor_game;
 pub mod p1030_matrix_cells_in_distance_order;
 pub mod p1037_valid_boomerang;
+pub mod p1046_last_stone_weight;
+pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p104_maximum_depth_of_binary_tree;
 pub mod p108_convert_sorted_array_to_binary_search_tree;
 pub mod p110_balanced_binary_tree;
