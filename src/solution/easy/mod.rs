@@ -5,6 +5,8 @@ pub mod p100_same_tree;
 pub mod p1013_partition_array_into_three_parts_with_equal_sum;
 pub mod p1018_binary_prefix_divisible_by_5;
 pub mod p101_symmetric_tree;
+pub mod p1021_remove_outermost_parentheses;
+pub mod p1022_sum_of_root_to_leaf_binary_numbers;
 pub mod p104_maximum_depth_of_binary_tree;
 pub mod p108_convert_sorted_array_to_binary_search_tree;
 pub mod p110_balanced_binary_tree;
