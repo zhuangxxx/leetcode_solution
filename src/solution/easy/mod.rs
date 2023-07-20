@@ -8,6 +8,8 @@ pub mod p101_symmetric_tree;
 pub mod p1021_remove_outermost_parentheses;
 pub mod p1022_sum_of_root_to_leaf_binary_numbers;
 pub mod p1024_divisor_game;
+pub mod p1030_matrix_cells_in_distance_order;
+pub mod p1037_valid_boomerang;
 pub mod p104_maximum_depth_of_binary_tree;
 pub mod p108_convert_sorted_array_to_binary_search_tree;
 pub mod p110_balanced_binary_tree;
