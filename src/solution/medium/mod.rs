@@ -61,3 +61,4 @@ pub mod p95_unique_binary_search_trees_ii;
 pub mod p96_unique_binary_search_trees;
 pub mod p97_interleaving_string;
 pub mod p98_validate_binary_search_tree;
+pub mod p99_recover_binary_search_tree;
