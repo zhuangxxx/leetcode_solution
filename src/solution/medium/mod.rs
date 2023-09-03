@@ -6,6 +6,7 @@ pub mod p15_3sum;
 pub mod p16_3sum_closest;
 pub mod p17_letter_combinations_of_a_phone_number;
 pub mod p18_4sum;
+pub mod p1921_eliminate_maximum_number_of_monsters;
 pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p22_generate_parentheses;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
