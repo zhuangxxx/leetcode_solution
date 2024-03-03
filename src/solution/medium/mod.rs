@@ -1,6 +1,7 @@
 pub mod p102_binary_tree_level_order_traversal;
 pub mod p103_binary_tree_zigzag_level_order_traversal;
 pub mod p105_construct_binary_tree_from_preorder_and_inorder_traversal;
+pub mod p106_construct_binary_tree_from_inorder_and_postorder_traversal;
 pub mod p11_container_with_most_water;
 pub mod p12_integer_to_roman;
 pub mod p15_3sum;
