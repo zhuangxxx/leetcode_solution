@@ -5,6 +5,7 @@ pub mod p106_construct_binary_tree_from_inorder_and_postorder_traversal;
 pub mod p107_binary_tree_level_order_traversal_ii;
 pub mod p109_convert_sorted_list_to_binary_search_tree;
 pub mod p113_path_sum_ii;
+pub mod p114_flatten_binary_tree_to_linked_list;
 pub mod p11_container_with_most_water;
 pub mod p12_integer_to_roman;
 pub mod p15_3sum;
