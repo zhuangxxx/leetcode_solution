@@ -12,6 +12,7 @@ pub mod p122_best_time_to_buy_and_sell_stock_ii;
 pub mod p128_longest_consecutive_sequence;
 pub mod p129_sum_root_to_leaf_numbers;
 pub mod p12_integer_to_roman;
+pub mod p130_surrounded_regions;
 pub mod p15_3sum;
 pub mod p16_3sum_closest;
 pub mod p17_letter_combinations_of_a_phone_number;
