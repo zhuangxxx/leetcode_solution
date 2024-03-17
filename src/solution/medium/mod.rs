@@ -14,6 +14,7 @@ pub mod p129_sum_root_to_leaf_numbers;
 pub mod p12_integer_to_roman;
 pub mod p130_surrounded_regions;
 pub mod p131_palindrome_partitioning;
+pub mod p134_gas_station;
 pub mod p15_3sum;
 pub mod p16_3sum_closest;
 pub mod p17_letter_combinations_of_a_phone_number;
