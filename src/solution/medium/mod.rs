@@ -39,6 +39,7 @@ pub mod p3_longest_substring_without_repeating_characters;
 pub mod p40_combination_sum_ii;
 pub mod p43_multiply_strings;
 pub mod p453_minimum_moves_to_equal_array_elements;
+pub mod p454_4sum_ii;
 pub mod p45_jump_game_ii;
 pub mod p46_permutations;
 pub mod p47_permutations_ii;
