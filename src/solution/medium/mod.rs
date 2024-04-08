@@ -50,6 +50,7 @@ pub mod p47_permutations_ii;
 pub mod p48_rotate_image;
 pub mod p49_group_anagrams;
 pub mod p50_powx_n;
+pub mod p515_find_largest_value_in_each_tree_row;
 pub mod p53_maximum_subarray;
 pub mod p54_spiral_matrix;
 pub mod p55_jump_game;
