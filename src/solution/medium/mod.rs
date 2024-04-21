@@ -28,6 +28,7 @@ pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p209_minimum_size_subarray_sum;
 pub mod p22_generate_parentheses;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
+pub mod p236_lowest_common_ancestor_of_a_binary_tree;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
