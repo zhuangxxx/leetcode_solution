@@ -66,6 +66,7 @@ pub mod p62_unique_paths;
 pub mod p63_unique_paths_ii;
 pub mod p64_minimum_path_sum;
 pub mod p654_maximum_binary_tree;
+pub mod p669_trim_a_binary_search_tree;
 pub mod p6_zigzag_conversion;
 pub mod p701_insert_into_a_binary_search_tree;
 pub mod p707_design_linked_list;
