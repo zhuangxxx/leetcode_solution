@@ -54,6 +54,7 @@ pub mod p49_group_anagrams;
 pub mod p50_powx_n;
 pub mod p513_find_bottom_left_tree_value;
 pub mod p515_find_largest_value_in_each_tree_row;
+pub mod p538_convert_bst_to_greater_tree;
 pub mod p53_maximum_subarray;
 pub mod p54_spiral_matrix;
 pub mod p55_jump_game;
