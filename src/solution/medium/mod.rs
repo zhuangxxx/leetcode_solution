@@ -51,6 +51,7 @@ pub mod p45_jump_game_ii;
 pub mod p46_permutations;
 pub mod p47_permutations_ii;
 pub mod p48_rotate_image;
+pub mod p491_non_decreasing_subsequences;
 pub mod p49_group_anagrams;
 pub mod p50_powx_n;
 pub mod p513_find_bottom_left_tree_value;
