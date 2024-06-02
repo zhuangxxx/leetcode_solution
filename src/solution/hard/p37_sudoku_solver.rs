@@ -54,6 +54,7 @@ impl Solution {
         }
 
         bt(board, &mut pos, &mut row, &mut col, &mut grid);
+        // 0ms/2.14MB
     }
 
     // pub fn solve_sudoku(board: &mut Vec<Vec<char>>) {
