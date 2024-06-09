@@ -47,6 +47,7 @@ pub mod p406_queue_reconstruction_by_height;
 pub mod p40_combination_sum_ii;
 pub mod p43_multiply_strings;
 pub mod p450_delete_node_in_a_bst;
+pub mod p452_minimum_number_of_arrows_to_burst_balloons;
 pub mod p453_minimum_moves_to_equal_array_elements;
 pub mod p454_4sum_ii;
 pub mod p45_jump_game_ii;
