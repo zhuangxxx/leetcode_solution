@@ -18,6 +18,7 @@ pub mod p134_gas_station;
 pub mod p137_single_number_ii;
 pub mod p150_evaluate_reverse_polish_notation;
 pub mod p151_reverse_words_in_a_string;
+pub mod p153_find_minimum_in_rotated_sorted_array;
 pub mod p15_3sum;
 pub mod p16_3sum_closest;
 pub mod p17_letter_combinations_of_a_phone_number;
