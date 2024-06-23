@@ -84,6 +84,7 @@ pub mod p72_edit_distance;
 pub mod p73_set_matrix_zeroes;
 pub mod p74_search_a_2d_matrix;
 pub mod p75_sort_colors;
+pub mod p763_partition_labels;
 pub mod p77_combinations;
 pub mod p78_subsets;
 pub mod p79_word_search;
