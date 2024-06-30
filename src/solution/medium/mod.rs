@@ -81,6 +81,7 @@ pub mod p701_insert_into_a_binary_search_tree;
 pub mod p707_design_linked_list;
 pub mod p71_simplify_path;
 pub mod p72_edit_distance;
+pub mod p738_monotone_increasing_digits;
 pub mod p73_set_matrix_zeroes;
 pub mod p74_search_a_2d_matrix;
 pub mod p75_sort_colors;
