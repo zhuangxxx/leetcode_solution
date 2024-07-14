@@ -5,3 +5,4 @@ pub mod p332_reconstruct_itinerary;
 pub mod p37_sudoku_solver;
 pub mod p51_n_queens;
 pub mod p52_n_queens_ii;
+pub mod p968_binary_tree_cameras;
