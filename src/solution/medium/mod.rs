@@ -37,6 +37,7 @@ pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p306_additive_number;
 pub mod p31_next_permutation;
+pub mod p343_integer_break;
 pub mod p347_top_k_frequent_elements;
 pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod p34_search_in_rotated_sorted_array;
