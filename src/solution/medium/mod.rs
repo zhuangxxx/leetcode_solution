@@ -48,6 +48,7 @@ pub mod p39_combination_sum;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p406_queue_reconstruction_by_height;
 pub mod p40_combination_sum_ii;
+pub mod p416_partition_equal_subset_sum;
 pub mod p435_non_overlapping_intervals;
 pub mod p43_multiply_strings;
 pub mod p450_delete_node_in_a_bst;
