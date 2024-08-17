@@ -38,6 +38,7 @@ pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p306_additive_number;
+pub mod p3137_minimum_number_of_operations_to_make_word_k_periodic;
 pub mod p31_next_permutation;
 pub mod p343_integer_break;
 pub mod p347_top_k_frequent_elements;
