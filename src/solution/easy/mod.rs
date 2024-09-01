@@ -24,6 +24,7 @@ pub mod p125_valid_palindrome;
 pub mod p136_single_number;
 pub mod p13_roman_to_integer;
 pub mod p144_binary_tree_preorder_traversal;
+pub mod p1450_number_of_students_doing_homework_at_a_given_time;
 pub mod p145_binary_tree_postorder_traversal;
 pub mod p14_longest_common_prefix;
 pub mod p168_excel_sheet_column_title;
