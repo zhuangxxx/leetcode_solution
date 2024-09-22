@@ -34,6 +34,7 @@ pub mod p22_generate_parentheses;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod p236_lowest_common_ancestor_of_a_binary_tree;
 pub mod p2374_node_with_highest_edge_score;
+pub mod p2414_length_of_the_longest_alphabetical_continuous_substring;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
