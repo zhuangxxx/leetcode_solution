@@ -31,6 +31,7 @@ pub mod p199_binary_tree_right_side_view;
 pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p209_minimum_size_subarray_sum;
 pub mod p216_combination_sum_iii;
+pub mod p2207_maximize_number_of_subsequences_in_a_string;
 pub mod p22_generate_parentheses;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod p236_lowest_common_ancestor_of_a_binary_tree;
