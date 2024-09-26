@@ -48,6 +48,7 @@ pub mod p231_power_of_two;
 pub mod p232_implement_queue_using_stacks;
 pub mod p234_palindrome_linked_list;
 pub mod p243_valid_anagram;
+pub mod p2535_difference_between_element_sum_and_digit_sum_of_an_array;
 pub mod p257_binary_tree_paths;
 pub mod p258_add_digits;
 pub mod p263_ugly_number;
