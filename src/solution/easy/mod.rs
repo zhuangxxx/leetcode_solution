@@ -61,6 +61,7 @@ pub mod p283_move_zeroes;
 pub mod p290_word_pattern;
 pub mod p292_nim_game;
 pub mod p303_range_sum_query_immutable;
+pub mod p3158_find_the_xor_of_numbers_which_appear_twice;
 pub mod p326_power_of_three;
 pub mod p338_counting_bits;
 pub mod p342_power_of_four;
