@@ -26,6 +26,7 @@ pub mod p153_find_minimum_in_rotated_sorted_array;
 pub mod p15_3sum;
 pub mod p16_3sum_closest;
 pub mod p17_letter_combinations_of_a_phone_number;
+pub mod p1884_egg_drop_with_2_eggs_and_n_floors;
 pub mod p18_4sum;
 pub mod p1921_eliminate_maximum_number_of_monsters;
 pub mod p199_binary_tree_right_side_view;
