@@ -63,6 +63,7 @@ pub mod p292_nim_game;
 pub mod p303_range_sum_query_immutable;
 pub mod p3158_find_the_xor_of_numbers_which_appear_twice;
 pub mod p3162_find_the_number_of_good_pairs_i;
+pub mod p3200_maximum_height_of_a_triangle;
 pub mod p326_power_of_three;
 pub mod p338_counting_bits;
 pub mod p342_power_of_four;
