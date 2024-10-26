@@ -53,6 +53,7 @@ pub mod p347_top_k_frequent_elements;
 pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod p34_search_in_rotated_sorted_array;
 pub mod p36_valid_sudoku;
+pub mod p3715_find_the_first_player_to_win_k_games_in_a_row;
 pub mod p376_wiggle_subsequence;
 pub mod p38_count_and_say;
 pub mod p39_combination_sum;
