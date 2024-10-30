@@ -65,6 +65,7 @@ pub mod p3158_find_the_xor_of_numbers_which_appear_twice;
 pub mod p3162_find_the_number_of_good_pairs_i;
 pub mod p3184_count_pairs_that_form_a_complete_day_i;
 pub mod p3200_maximum_height_of_a_triangle;
+pub mod p3216_lexicographically_smallest_string_after_a_swap;
 pub mod p326_power_of_three;
 pub mod p338_counting_bits;
 pub mod p342_power_of_four;
