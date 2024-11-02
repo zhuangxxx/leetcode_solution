@@ -57,22 +57,4 @@ mod tests {
             Some(Box::new(ListNode::from(vec![4, 5, 6])))
         );
     }
-
-    #[test]
-    fn test() {
-        let list = Some(Box::new(ListNode::from(vec![1, 2, 3, 4, 5, 6])));
-        let mut n = true;
-        let (mut fast, mut slow) = (list.clone(), list);
-        while let Some(tail) = fast.take() {
-            println!("fast:{}", tail.val);
-            fast = tail.next;
-            if n {
-                if let Some(tail) = slow.take() {
-                    println!("slow:{}", tail.val);
-                    slow = tail.next;
-                }
-            }
-            n = !n;
-        }
-    }
 }

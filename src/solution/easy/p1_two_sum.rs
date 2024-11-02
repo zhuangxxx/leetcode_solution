@@ -12,7 +12,7 @@ impl Solution {
             }
             map.insert(num, i);
         }
-        
+
         Vec::<i32>::new()
         // 0ms/2.6MB
     }
@@ -31,7 +31,7 @@ impl Solution {
 }
 
 #[cfg(test)]
-mod test {
+mod tests {
     use super::*;
 
     #[test]

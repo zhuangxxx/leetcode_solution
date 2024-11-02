@@ -22,14 +22,14 @@ impl Solution {
             }
             i += 1;
         }
-        
+
         strs[0][..min_len].to_string()
         // 0ms/2MB
     }
 }
 
 #[cfg(test)]
-mod test {
+mod tests {
     use super::*;
 
     #[test]
