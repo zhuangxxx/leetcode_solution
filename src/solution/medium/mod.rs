@@ -50,6 +50,7 @@ pub mod p3185_count_pairs_that_form_a_complete_day_ii;
 pub mod p31_next_permutation;
 pub mod p3211_generate_binary_strings_without_adjacent_zeros;
 pub mod p3254_find_the_power_of_k_size_subarrays_i;
+pub mod p3255_find_the_power_of_k_size_subarrays_ii;
 pub mod p343_integer_break;
 pub mod p347_top_k_frequent_elements;
 pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
