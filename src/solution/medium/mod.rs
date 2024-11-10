@@ -89,6 +89,7 @@ pub mod p59_spiral_matrix_ii;
 pub mod p5_longest_palindromic_substring;
 pub mod p61_rotate_list;
 pub mod p62_unique_paths;
+pub mod p633_sum_of_square_numbers;
 pub mod p63_unique_paths_ii;
 pub mod p64_minimum_path_sum;
 pub mod p654_maximum_binary_tree;
