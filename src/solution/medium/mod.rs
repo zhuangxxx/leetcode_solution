@@ -113,6 +113,7 @@ pub mod p79_word_search;
 pub mod p7_reverse_integer;
 pub mod p80_remove_duplicates_from_sorted_array_ii;
 pub mod p81_search_in_rotated_sorted_array_ii;
+pub mod p825_friends_of_appropriate_ages;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p86_partition_list;
 pub mod p89_gray_code;
