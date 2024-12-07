@@ -50,6 +50,7 @@ pub mod p3185_count_pairs_that_form_a_complete_day_ii;
 pub mod p31_next_permutation;
 pub mod p3208_alternating_groups_ii;
 pub mod p3211_generate_binary_strings_without_adjacent_zeros;
+pub mod p3233_find_the_count_of_numbers_which_are_not_special;
 pub mod p3254_find_the_power_of_k_size_subarrays_i;
 pub mod p3255_find_the_power_of_k_size_subarrays_ii;
 pub mod p343_integer_break;
