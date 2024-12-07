@@ -69,6 +69,7 @@ pub mod p3216_lexicographically_smallest_string_after_a_swap;
 pub mod p3222_find_the_winning_player_in_coin_game;
 pub mod p3226_number_of_bit_changes_to_make_two_integers_equal;
 pub mod p3242_design_neighbor_sum_service;
+pub mod p3248_snake_in_matrix;
 pub mod p3258_count_substrings_that_satisfy_k_constraint_i;
 pub mod p326_power_of_three;
 pub mod p338_counting_bits;
