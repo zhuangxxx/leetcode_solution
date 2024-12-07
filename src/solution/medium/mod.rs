@@ -43,6 +43,7 @@ pub mod p24_swap_nodes_in_pairs;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
+pub mod p3001_minimum_moves_to_capture_the_queen;
 pub mod p306_additive_number;
 pub mod p3137_minimum_number_of_operations_to_make_word_k_periodic;
 pub mod p3164_find_the_number_of_good_pairs_ii;
