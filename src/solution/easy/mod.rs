@@ -74,6 +74,7 @@ pub mod p3242_design_neighbor_sum_service;
 pub mod p3248_snake_in_matrix;
 pub mod p3258_count_substrings_that_satisfy_k_constraint_i;
 pub mod p326_power_of_three;
+pub mod p3274_check_if_two_chessboard_squares_have_the_same_color;
 pub mod p338_counting_bits;
 pub mod p342_power_of_four;
 pub mod p344_reverse_string;
