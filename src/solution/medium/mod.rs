@@ -21,6 +21,7 @@ pub mod p131_palindrome_partitioning;
 pub mod p1338_reduce_array_size_to_the_half;
 pub mod p134_gas_station;
 pub mod p137_single_number_ii;
+pub mod p1387_sort_integers_by_the_power_value;
 pub mod p150_evaluate_reverse_polish_notation;
 pub mod p151_reverse_words_in_a_string;
 pub mod p153_find_minimum_in_rotated_sorted_array;
