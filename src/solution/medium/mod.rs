@@ -18,6 +18,7 @@ pub mod p129_sum_root_to_leaf_numbers;
 pub mod p12_integer_to_roman;
 pub mod p130_surrounded_regions;
 pub mod p131_palindrome_partitioning;
+pub mod p1338_reduce_array_size_to_the_half;
 pub mod p134_gas_station;
 pub mod p137_single_number_ii;
 pub mod p150_evaluate_reverse_polish_notation;
