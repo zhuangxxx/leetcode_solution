@@ -31,6 +31,7 @@ pub mod p14_longest_common_prefix;
 pub mod p168_excel_sheet_column_title;
 pub mod p169_majority_element;
 pub mod p171_excel_sheet_column_number;
+pub mod p1812_determine_color_of_a_chessboard_square;
 pub mod p190_reverse_bits;
 pub mod p191_number_of_1_bits;
 pub mod p1_two_sum;

@@ -11,5 +11,8 @@
         "strs",
         "strstr",
         "subarray"
-    ]
+    ],
+    "github.copilot.enable": {
+        "rust": false
+    }
 }
