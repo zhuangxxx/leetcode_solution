@@ -79,6 +79,7 @@ pub mod p3258_count_substrings_that_satisfy_k_constraint_i;
 pub mod p3264_final_array_state_after_k_multiplication_operations_i;
 pub mod p326_power_of_three;
 pub mod p3274_check_if_two_chessboard_squares_have_the_same_color;
+pub mod p3285_find_indices_of_stable_mountains;
 pub mod p338_counting_bits;
 pub mod p342_power_of_four;
 pub mod p344_reverse_string;
